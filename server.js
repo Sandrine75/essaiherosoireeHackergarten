@@ -7,6 +7,6 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
-app.listen(8082, function () {
+app.listen(process.env.PORT || 8082, function () {
   console.log("Server listening on port 8082");
 });
