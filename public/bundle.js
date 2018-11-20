@@ -30664,7 +30664,7 @@ ReactDOM.render(React.createElement(
         React.createElement(
             Switch,
             null,
-            React.createElement(Route, { exact: true, path: '/', component: App }),
+            React.createElement(Route, { exact: true, path: '/', component: CelebtripLeafletRedux }),/*App retiré*/
             /*React.createElement(Route, { exact: true, path: '/app2', component: App2 }),*/
             React.createElement(Route, { exact: true, path: '/app3', component: App3 }),
             /*React.createElement(Route, { exact: true, path: '/app32', component: App32 }),
